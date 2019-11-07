@@ -83,6 +83,7 @@ class Dataset:
         ==============
         None
         '''
+
         # Call read images function
         self.read_images()
 
@@ -119,6 +120,8 @@ class Dataset:
                 shutil.copyfile(self.path + self.files[index], self.path + "/non-cloud/" + self.files[index])
             cv2.destroyAllWindows()
             print("Index: {} finished of {}".format(index+1, len(self.images)))
-ds = Dataset("images/")
-ds.show_samples()
-ds.show()
+
+if __name__ == "__main__":
+    ds = Dataset("images/")
+    ds.show_samples()
+    ds.show()
