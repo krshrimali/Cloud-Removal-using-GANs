@@ -91,8 +91,8 @@ class Dataset:
         fig, axs = plt.subplots(2)
         axs[0].axis("off")
         axs[1].axis("off")
-        axs[0].imshow(self.images[0])
-        axs[1].imshow(self.images[1])
+        axs[0].imshow(cv2.cvtColor(self.images[0], cv2.COLOR_BGR2RGB))
+        axs[1].imshow(cv2.cvtColor(self.images[1], cv2.COLOR_BGR2RGB))
         plt.show()
 
     def show(self):
