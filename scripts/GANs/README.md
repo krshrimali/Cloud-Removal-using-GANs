@@ -10,3 +10,7 @@ This is a start to solving the problem using GANs. Here is the expected pipeline
 **Extras**
 
 1. Divide the data using technique of detecting IQA (using BRISQUE or something else, maybe Divine or something like Full Reference IQA), or using variance of laplacian measure (calculate the average variance of laplacian for that). Note: 250 images with cloud, and 1250 without cloud. Need heavy data augmentation. Method important than the output - Ojha sir. So don't care about getting more data.
+
+**Implementation**
+
+1. Pix2Pix GANs
