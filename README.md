@@ -1,5 +1,7 @@
 # Cloud-Removal-using-GANs-
 
+**Note:** This repo has been made public to share how we went through the project. This doesn't intend to act as a solution for the problem statement. Thanks!
+
 **FarmGuide Project, DL Course IIIT NR**
 
 ## Progress:
